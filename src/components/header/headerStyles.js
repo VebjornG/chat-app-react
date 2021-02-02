@@ -6,7 +6,7 @@ export const Header = styled.header `
     width: 100%;
     /*height: 15vh;*/
     /*background-color: #e17366;*/
-    background: #63B8FF; /*#1b5ff9;*/
+    background: #4ba5eb; /*#1b5ff9;*/
     position: fixed;
     top: 0;
     z-index: 100;
@@ -39,7 +39,7 @@ export const Ul = styled.ul `
 export const Li = styled.li `
     display: flex;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     margin: 30px 80px 0px; 
     text-decoration: none;
@@ -54,9 +54,9 @@ export const StyledLink = styled.div `
     color: white;
     cursor: pointer;
     &:hover, &:focus {
-        color: #e17366;
+        color: white; /*#e17366;*/
         transition: 400ms;
-        transform: scale(1.1) perspective(1px);
+        transform: scale(1.2) perspective(1px);
     }
 `;
 

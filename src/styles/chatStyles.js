@@ -21,9 +21,9 @@ export const DivUsers = styled.div `
     height: 100%;
     overflow-x: hidden;
     border-right: 1px solid #ccc;
-    padding-top: 170px;
-    display: flex;
-    position: absolute;
+    padding-top: 165px;
+    /*display: flex;*/
+    position: fixed;
 
     @media (max-width: 700px) {
         display: none;
@@ -33,12 +33,13 @@ export const DivUsers = styled.div `
 export const DivName = styled.div `
     /*display: flex;*/
     /*align-items: center;*/
-    padding: 5px 10px;
-    box-sizing: border-box;
+    padding: 5px 2px;
+    /*box-sizing: border-box;*/
     cursor: pointer;
     width: 100%;
-    display: grid;
-    grid-template-columns: 90px auto;
+    /*display: grid;
+    grid-template-columns: 90px auto;*/
+    display: flex;
     &:active {
         background: #ccc;
     }
@@ -77,8 +78,7 @@ export const DivChatHeader = styled.div `
     text-align: center;
     z-index: 5;
     top: 163px;
-    margin-left: 2px;
-    
+    margin-left: 1px;
 
     @media (max-width: 700px) {
         width: 100%;
@@ -208,6 +208,8 @@ export const SpanOffline = styled.span `
     border-radius: 5px;
     background: green;
     box-shadow: 0 0 0 0;
+    margin-top: 1.3em;
+    margin-left: 1em;
 `;
 
 export const SpanAway = styled.span `
@@ -217,6 +219,8 @@ export const SpanAway = styled.span `
     border-radius: 5px;
     background: #ffdf00;
     box-shadow: 0 0 10px 0 #ffdf00;
+    margin-top: 1.3em;
+    margin-left: 1em;
 `;
 
 export const EmojisContainer = styled.div `
