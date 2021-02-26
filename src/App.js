@@ -40,14 +40,14 @@ import {  ContainerSignIn,
           Form } from "./components/card/cardStyles"
 
 firebase.initializeApp({
-    apiKey: "AIzaSyCW1V-XomyFj_pfzJg1WVxeVWJB7b7ARZI",
+    apiKey: "",
     authDomain: "chat-for-testapp.firebaseapp.com",
     databaseURL: "https://chat-for-testapp.firebaseio.com",
     projectId: "chat-for-testapp",
     storageBucket: "chat-for-testapp.appspot.com",
-    messagingSenderId: "285672943459",
-    appId: "1:285672943459:web:6942bbd53520a9ccdaed56",
-    measurementId: "G-VS992604ML"
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 })
 
 
